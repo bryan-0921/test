@@ -1,0 +1,107 @@
+HTML
+
+<html>
+<head>
+<h2>程式設計作業</h2>
+  <!--分線-->
+ <hr/>
+  <!--長寬-->
+<style>
+table,th,td {
+  border: 2px solid black;
+   
+  }
+  th,td {
+    padding: 2px;
+    text-align:left;
+  }
+  .red {
+    background-color:red;
+  }
+</style>
+</head>
+<body>
+  <!--框線大小-->
+<table style="width:100%">
+ 
+<caption><b><h1>履歷表</h1></b></caption>
+<tr>
+  <th>班級</th>
+  <!--合併列-->
+  <td colspan="2">劉承郡</td>
+  <th>性別</th>
+  <td colspan="4">男</td>
+</tr>
+<tr>
+  <th>年齡</th>
+  <td colspan="7">20歲</td>
+</tr>
+  <th>籍貫</th>
+  <td colspan="2">台灣桃園</td>
+  <th>電話</th>
+  <td colspan="4">0912345678</td>
+<tr>
+  <th>通訊地址</th>
+  <td colspan="7">桃園市開山里89號</td>
+</tr>
+  <th>電子信箱</th>
+  <td colspan="7">bryanjay881028@gmail.com</td>
+
+<tr>
+  <th>應徵項目</th>
+  <td colspan="2">資訊工程師</td>
+  <th>身分證字號</th>
+  <td colspan="4">H123456789</td>
+</tr>
+  <th>婚姻狀況</th>
+  <td>未婚</td>
+  <th>血型</th>
+  <td>A型</td>
+  <th>身高</th>
+  <td>175公分</td>
+  <th>體重</th>
+  <td>66公斤</td>
+  
+<tr>
+  <!--合併欄-->
+  <th rowspan="5">學歷</th>
+  <td colspan="2">研究所</td>
+  <td colspan="5">無</td>
+</tr>
+<tr>
+  <td colspan="2">大學</td>
+  <td colspan="5">國立台北護理健康大學</td>
+</tr>
+<tr>
+  <td colspan="2">高中</td>
+  <td colspan="5">私立新興高級中學</td>
+</tr>
+<tr>
+  <td colspan="2">國中</td>
+  <td colspan="5">縣立永豐國民中學</td>
+</tr>
+<tr>
+  <td colspan="2">小學</td>
+  <td colspan="5">縣立龍山國民小學</td>
+</tr>
+<tr>
+  <th>證照</th>
+  <td colspan="7">電腦軟體應用乙級、商教會會計一級</td>
+</tr>
+<tr>
+  <th>短片</th>
+  <!--超連結-->
+  <td colspan="7"><a href="https://www.youtube.com/watch?v=Xybn5df7rx0">請點我超連結</a></td>
+
+</tr>
+
+</table>
+</body>
+</html>
+
+CSS
+
+body{
+  background-color: #6495ED;
+}
+
